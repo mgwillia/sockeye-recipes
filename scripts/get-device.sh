@@ -33,10 +33,10 @@ fi
 
 # 2. This part is specific for your Lmod setting, if used.
 # Otherwise assume that CUDA is available in standard paths
-type module > /dev/null
-if [ "$?" -eq 0 ] ; then
-    module load cuda90/toolkit
-fi
+# type module > /dev/null
+# if [ "$?" -eq 0 ] ; then
+#     module load cuda90/toolkit
+# fi
 
 
 # 3. Set $device variable for Sockeye
